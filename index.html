@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>俄罗斯方块</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-area">
+            <canvas id="tetris" width="240" height="540"></canvas>
+        </div>
+        <div class="side-panel">
+            <div class="panel-top">
+                <div class="next-piece">
+                    <p>下一个:</p>
+                    <canvas id="nextPiece" width="80" height="80"></canvas>
+                </div>
+                <div class="game-info">
+                    <div class="score">分数: <span id="score">0</span></div>
+                    <div class="level">等级: <span id="level">1</span></div>
+                </div>
+            </div>
+            <div class="panel-bottom">
+                <div class="controls">
+                    <h3>操作说明</h3>
+                    <ul>
+                        <li>← : 左移</li>
+                        <li>→ : 右移</li>
+                        <li>↓ : 加速下落</li>
+                        <li>↑ : 旋转</li>
+                        <li>空格 : 暂停/继续</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html> 
