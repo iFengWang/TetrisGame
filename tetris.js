@@ -5,7 +5,7 @@ const nextContext = nextCanvas.getContext("2d");
 
 const BLOCK_SIZE = 20;
 const BOARD_WIDTH = 12;
-const BOARD_HEIGHT = 20;
+const BOARD_HEIGHT = 30;
 
 // 方块颜色
 const COLORS = [

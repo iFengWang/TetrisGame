@@ -15,7 +15,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     align-items: stretch;
-    min-height: 565px;
+    /* min-height: 580px; */
 }
 
 .side-panel {
@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     width: 200px;
     gap: 20px;
-    height: 565px;
+    height: 575px;
 }
 
 .panel-top {
@@ -52,7 +52,7 @@ canvas {
 
 .game-area {
     margin-right: 20px;
-    height: 565px;
+    height: 575px;
     display: flex;
     /* align-items: center; */
 }
